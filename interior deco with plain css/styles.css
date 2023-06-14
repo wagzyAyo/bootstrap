@@ -1,0 +1,86 @@
+body {
+    background: url('assets/bkg.jpeg') rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 4%;
+    align-items: center;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav span {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left-nav span a {
+    text-decoration: none;
+    color: burlywood
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #f5f5f5;
+    padding: 0 10px;
+}
+
+.right-nav {
+    gap: 10px;
+}
+
+
+.btn2 {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: gray;
+    border: 1px solid gray;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    color: #f5f5f5;
+    display: grid;
+    place-content: center;
+    gap: 5px;
+    margin-top: 10em;
+}
+
+main p {
+    max-width: 600px;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.bottom-social img {
+    cursor: pointer;
+    width: 30px;
+    position: relative;
+    margin-top: 13em;
+    float: right;
+    padding: 2px 2em;
+}
